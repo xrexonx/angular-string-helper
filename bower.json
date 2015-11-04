@@ -1,0 +1,26 @@
+{
+  "name": "AngularJs String Helper",
+  "version": "0.0.1",
+  "authors": [
+    "Rexon A. De los Reyes <rexondelosreyes88@gmail.com>"
+  ],
+  "description": "Just a string helper that helps _11042015",
+  "main": "angular-string-helper.js",
+  "keywords": [
+    "angular",
+    "string",
+    "filters",
+    "helper"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7"
+  }
+}
