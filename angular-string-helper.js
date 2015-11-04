@@ -81,44 +81,43 @@
                 toSnakeCaseFromCamelCase : _toSnakeCaseFromCamelCase,
                 toOrdinal : _toOrdinalValue
             };
-
-        })
+        });
 
         /*Filters*/
         mod.filter("toSlug", ["Str", function(Str) {
             return function(input) {
                 return Str.toSlug(input);
-            };
-        }])
+            }
+        }]);
 
         mod.filter("toCamelCase", ["Str", function(Str) {
             return function(input) {
                 return Str.toCamelCase(input);
-            };
-        }])
+            }
+        }]);
 
         mod.filter("toSnakeCase", ["Str", function(Str) {
             return function(input) {
                 return Str.toSnakeCase(input);
-            };
-        }])
+            }
+        }]);
 
         mod.filter("toUpperFirstChar", ["Str", function(Str) {
             return function(input) {
                 return Str.toUpperFirstChar(input);
-            };
-        }])
+            }
+        }]);
 
         mod.filter("toLowerFirstChar", ["Str", function(Str) {
             return function(input) {
                 return Str.toLowerFirstChar(input);
-            };
-        }])
+            }
+        }]);
 
         mod.filter("toOrdinal", ["Str", function(Str) {
             return function(number) {
                 return Str.toOrdinal(number);
-            };
+            }
         }]);
 
 })();
