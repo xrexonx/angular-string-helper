@@ -1,7 +1,7 @@
 (function () {
-	"use strict";
+    "use strict";
 
-	var mod = angular.module("rex-string-helper", []);
+    var mod = angular.module("rex-string-helper", []);
         mod.factory('Str', function () {
 
             function _toSlug(str) {
