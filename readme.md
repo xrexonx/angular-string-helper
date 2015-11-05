@@ -8,7 +8,10 @@ Install via bower
 ```sh
 $ bower install angular-string-helper --save
 ```
-
+or via npm
+```sh
+$ npm install angular-string-helper
+```
 Be sure to include `angular-string-helper.js` or `angular-string-helper.min.js` in your HTML document after including your angular.js file.
 
 ```html
@@ -146,4 +149,3 @@ We all know that AngularJs provides built-in filters, but I think these filters 
 <!--Controller: $scope.ordinalVal = "42"-->
 <p>Title:{{ordinalVal | toOrdinal}}</p> <!-- Browser: 42nd -->
 ```
-
