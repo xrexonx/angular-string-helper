@@ -1,5 +1,5 @@
 {
-  "name": "AngularJs String Helper",
+  "name": "angular-string-helper",
   "version": "1.0.0",
   "description": "Just a string helper that helps _11042015",
   "main": "dist/angular-string-helper.min.js",
