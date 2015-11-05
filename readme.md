@@ -9,20 +9,20 @@ Install via bower
 $ bower install angular-string-helper --save
 ```
 
-Be sure to include angular-string-helper.js or angular-string-helper.min.js in your HTML document after including your angular.js file.
+Be sure to include `angular-string-helper.js` or `angular-string-helper.min.js` in your HTML document after including your angular.js file.
 
 ```html
 <script src="js/angular-string-helper.js"></script>
 ```
 
-Add rex-string-helper as a dependency in your AngularJS app.
+Add `rex-string-helper` as a dependency in your AngularJS app.
 
 ```javascript
 angular.module("youApp", ["rex-string-helper", "Other-Dependencies"]);
 ```
 
 ## Usage
-Inject Str on your Controller, Service or other functions.
+Inject *Str* on your Controller, Service or other functions.
 
 ```javascript
 (function () {
