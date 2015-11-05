@@ -148,3 +148,6 @@ We all know that AngularJs provides built-in filters, but I think these filters 
 <!--Controller: $scope.ordinalVal = "42"-->
 <p>Title:{{ordinalVal | toOrdinal}}</p> <!-- Browser: 42nd -->
 ```
+
+
+### Thank you!
