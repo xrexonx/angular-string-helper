@@ -2,6 +2,13 @@
 Just a simple lightweight angularjs string helper that maybe helps and also provides filters with each functions.
 
 ## Installation
+
+Install via bower
+
+```sh
+$ bower install angular-string-helper --save
+```
+
 Be sure to include angular-string-helper.js or angular-string-helper.min.js in your HTML document after including your angular.js file.
 
 ```html
