@@ -5,7 +5,7 @@
     "Rexon A. De los Reyes <rexondelosreyes88@gmail.com>"
   ],
   "description": "Just a string helper that helps _11042015",
-  "main": "./angular-string-helper.js",
+  "main": "dist/angular-string-helper.min.js",
   "keywords": [
     "angular",
     "string",
@@ -17,8 +17,11 @@
     "**/.*",
     "node_modules",
     "bower_components",
-    "test",
-    "tests"
+    "bower.json",
+    "gulpfile.js",
+    "package.json",
+    "readme.md",
+    "Resouces.txt"
   ],
   "dependencies": {
     "angular": "~1.4.7"
