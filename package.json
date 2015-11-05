@@ -1,6 +1,6 @@
 {
   "name": "angular-string-helper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Just a string helper that helps _11042015",
   "main": "dist/angular-string-helper.min.js",
   "keywords": [
@@ -12,6 +12,9 @@
   "authors": [
     "Rexon A. De los Reyes <rexondelosreyes88@gmail.com>"
   ],
+  "dependencies": {
+    "angular": "~1.4.7"
+  },
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-rename": "^1.2.2",
