@@ -21,7 +21,7 @@
     "gulpfile.js",
     "package.json",
     "readme.md",
-    "Resouces.txt"
+    "Resources.txt"
   ],
   "dependencies": {
     "angular": "~1.4.7"
