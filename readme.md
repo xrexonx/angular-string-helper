@@ -1,4 +1,6 @@
 ## AngularJs String Helper
+[![Build Status](https://travis-ci.org/xrexonx/angular-string-helper.svg?branch=master)](https://travis-ci.org/xrexonx/angular-string-helper) [![npm version](https://badge.fury.io/js/angular-string-helper.svg)](https://badge.fury.io/js/angular-string-helper)
+
 Just a simple lightweight angularjs string helper that maybe helps and also provides filters with each functions.
 
 ## Installation
