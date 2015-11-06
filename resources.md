@@ -1,4 +1,4 @@
-Resources
+Resources;
 
 
 http://stackoverflow.com/questions/1053902/how-to-convert-a-title-to-a-url-slug-in-jquery#answer-1054862
