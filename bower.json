@@ -1,6 +1,6 @@
 {
   "name": "angular-string-helper",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "authors": [
     "Rexon A. De los Reyes <rexondelosreyes88@gmail.com>"
   ],
@@ -21,7 +21,8 @@
     "gulpfile.js",
     "package.json",
     "readme.md",
-    "Resources.txt"
+    "Resources.txt",
+    "LICENSE"
   ],
   "dependencies": {
     "angular": "~1.4.7"
