@@ -25,7 +25,6 @@ Add `rex-string-helper` as a dependency in your AngularJS app.
 angular.module("youApp", ["rex-string-helper", "Other-Dependencies"]);
 ```
 
-## Usage
 Inject *Str*  on your Controller or Service.
 
 ```javascript
@@ -40,6 +39,8 @@ Inject *Str*  on your Controller or Service.
         });
 })();
 ```
+## Usage
+
 #### Str.toSlug();
 ```javascript
         var sampleString = "This is a sample string";
@@ -94,6 +95,27 @@ Inject *Str*  on your Controller or Service.
         var alphaNum = 42; or var alphaNum = '42';
         var str = Str.toOrdinal(alphaNum);
         console.log(str); //Outputs: 42nd
+```
+#### Str.startsWith();
+```javascript
+        //returns true
+        if (Str.startsWith('sample', 's')) {
+            //Do something awesome here..
+        }
+```
+#### Str.endsWith();
+```javascript
+        //returns true
+        if (Str.endsWith('sample', 'e')) {
+            //Do something awesome here..
+        }
+```
+#### Str.contains();
+```javascript
+        //returns true
+        if (Str.contains('this is a sample string', 'sample')) {
+            //Do something awesome here..
+        }
 ```
 
 ## Filter
