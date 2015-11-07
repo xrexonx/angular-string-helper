@@ -26,7 +26,7 @@ angular.module("youApp", ["rex-string-helper", "Other-Dependencies"]);
 ```
 
 ## Usage
-Inject *Str* on your Controller, Service or other functions.
+Inject *Str*  on your Controller or Service.
 
 ```javascript
 (function () {
