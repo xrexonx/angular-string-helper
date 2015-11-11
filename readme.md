@@ -39,7 +39,7 @@ Inject *Str*  on your Controller or Service.
         });
 })();
 ```
-## Usage
+## API Usage
 
 #### Str.toSlug();
 ```javascript
