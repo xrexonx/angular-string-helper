@@ -88,6 +88,9 @@
             return str.indexOf(findStr) >= 0;
         }
 
+        function _truncate (str, len) {
+            return str.substring(0,len)+'...';
+        }
 
         return {
             toSlug : _toSlug,
@@ -101,45 +104,46 @@
             toOrdinal : _toOrdinalValue,
             startsWith : _startsWith,
             endsWith : _endsWith,
-            contains : _contains
+            contains : _contains,
+            truncate : _truncate
         };
     })
 
-    /*Filters*/
-    .filter("toSlug", ["Str", function(Str) {
-        return function(input) {
-            return Str.toSlug(input);
-        }
-    }])
+        /*Filters*/
+        .filter("toSlug", ["Str", function(Str) {
+            return function(input) {
+                return Str.toSlug(input);
+            }
+        }])
 
-    .filter("toCamelCase", ["Str", function(Str) {
-        return function(input) {
-            return Str.toCamelCase(input);
-        }
-    }])
+        .filter("toCamelCase", ["Str", function(Str) {
+            return function(input) {
+                return Str.toCamelCase(input);
+            }
+        }])
 
-    .filter("toSnakeCase", ["Str", function(Str) {
-        return function(input) {
-            return Str.toSnakeCase(input);
-        }
-    }])
+        .filter("toSnakeCase", ["Str", function(Str) {
+            return function(input) {
+                return Str.toSnakeCase(input);
+            }
+        }])
 
-    .filter("toUpperFirstChar", ["Str", function(Str) {
-        return function(input) {
-            return Str.toUpperFirstChar(input);
-        }
-    }])
+        .filter("toUpperFirstChar", ["Str", function(Str) {
+            return function(input) {
+                return Str.toUpperFirstChar(input);
+            }
+        }])
 
-    .filter("toLowerFirstChar", ["Str", function(Str) {
-        return function(input) {
-            return Str.toLowerFirstChar(input);
-        }
-    }])
+        .filter("toLowerFirstChar", ["Str", function(Str) {
+            return function(input) {
+                return Str.toLowerFirstChar(input);
+            }
+        }])
 
-    .filter("toOrdinal", ["Str", function(Str) {
-        return function(number) {
-            return Str.toOrdinal(number);
-        }
-    }]);
+        .filter("toOrdinal", ["Str", function(Str) {
+            return function(number) {
+                return Str.toOrdinal(number);
+            }
+        }]);
 
 })();
