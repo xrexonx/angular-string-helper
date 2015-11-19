@@ -122,6 +122,13 @@ Inject *Str*  on your Controller or Service.
         }
 ```
 
+#### Str.truncate();
+```javascript
+        var sampleString = "This is a sample string";
+        var str = Str.truncate(sampleString, 15);
+        console.log(str); //Outputs: This is a sampl...
+```
+
 ## Filter
 We all know that AngularJs provides built-in filters, but I think these filters below are not included;
 #### toSlug

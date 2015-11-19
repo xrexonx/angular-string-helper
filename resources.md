@@ -8,3 +8,4 @@ http://jamesroberts.name/blog/2010/02/22/string-functions-for-javascript-trim-to
 https://scotch.io/tutorials/building-custom-angularjs-filters
 http://stackoverflow.com/questions/3884632/how-to-get-the-last-character-of-a-string#answer-3884711
 http://stackoverflow.com/questions/3427132/how-to-get-first-character-of-string#answer-3427148
+http://stackoverflow.com/questions/1301512/truncate-a-string-straight-javascript#answer-1301525
