@@ -5,17 +5,16 @@ Just a simple lightweight angularjs string helper that maybe helps and also prov
 
 ## Installation
 
-Install via bower
-```sh
-$ bower install angular-string-helper --save
-```
-or via npm
-
+Install via npm
 ```sh
 $ npm install angular-string-helper --save
 ```
+[![NPM](https://nodei.co/npm/angular-string-helper.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/angular-string-helper/)
 
-<!--[![NPM](https://nodei.co/npm/angular-string-helper.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/angular-string-helper/)-->
+or via bower
+```sh
+$ bower install angular-string-helper --save
+```
 
 Be sure to include `angular-string-helper.js` or `angular-string-helper.min.js` in your HTML document after including your angular.js file.
 
