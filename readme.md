@@ -1,5 +1,8 @@
 ## AngularJs String Helper
-[![Build Status](https://travis-ci.org/xrexonx/angular-string-helper.svg?branch=master)](https://travis-ci.org/xrexonx/angular-string-helper) [![npm version](https://badge.fury.io/js/angular-string-helper.svg)](https://badge.fury.io/js/angular-string-helper) [![Downloads](http://img.shields.io/npm/dm/angular-string-helper.svg)](https://www.npmjs.com/package/angular-string-helper)
+
+[![Build Status](https://travis-ci.org/xrexonx/angular-string-helper.svg?branch=master)](https://travis-ci.org/xrexonx/angular-string-helper)
+[![npm version](https://badge.fury.io/js/angular-string-helper.svg)](https://badge.fury.io/js/angular-string-helper)
+[![Downloads](http://img.shields.io/npm/dm/angular-string-helper.svg)](https://www.npmjs.com/package/angular-string-helper)
 
 Just a simple lightweight angularjs string helper that maybe helps and also provides filters with each functions.
 
@@ -182,6 +185,10 @@ We all know that AngularJs provides built-in filters, but I think these filters 
 <!--Controller: $scope.ordinalVal = "42"-->
 <p>Title:{{ordinalVal | toOrdinal}}</p> <!-- Browser: 42nd -->
 ```
+
+
+## License
+MIT © [Rexon A. De los Reyes](http://xrexonx.github.io)
 
 
 #### Thanks and enjoy. Godspeed!
